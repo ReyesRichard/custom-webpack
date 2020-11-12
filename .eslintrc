@@ -1,0 +1,36 @@
+{
+    "extends" : [
+        "eslint:recommended",
+        "plugin:react/recommended"
+    ],
+    // "parser": "babel-eslint",
+    "parserOptions":{
+        "ecmaVersion": 2020,
+        "sourceType": "module",
+        "ecmaFeatures": {
+            "jsx": true
+        }
+    },
+    "rules": {
+        "no-unused-vars": "error"
+        // "no-restricted-imports": ["error", "never"]
+        // "no-console": "warn"
+    },
+    "plugins": [
+        "react"
+    ],
+
+    "env": {
+        "node": true,
+        "browser": true,
+        "es6": true
+    }
+    // "overrides": [
+    //     {
+    //       "files": [ "src/**/*.js" ],
+    //       "rules": {
+    //         "quotes": [ 2, "single" ]
+    //       }
+    //     }
+    // ]
+}

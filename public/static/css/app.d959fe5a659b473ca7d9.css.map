@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://claro-rediseno-maqueta/src/stylesheet/style.css"],"names":[],"mappings":"AAAA,KACI,qBACJ,CAEA,OACI,UACJ","file":"static/css/app.d959fe5a659b473ca7d9.css","sourcesContent":["body{\r\n    background-color: #ddd;\r\n}\r\n\r\n.hello {\r\n    color: back;\r\n}"],"sourceRoot":""}
